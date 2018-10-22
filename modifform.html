@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulaire D'inscription </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<style>
+body{
+    background: #cacaec;
+
+}
+.wrap{
+    width: 350px;
+    
+    margin: auto;
+    background: #09b1ee;
+
+}
+form{
+    padding: 10px;
+    font-family: arial;
+    border: 1px dotted white;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    background: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border:none;
+}
+input[type=text],input[type=email],input[type=password]
+{
+    width: 90%;
+}
+input[type=submit]{
+    width: 95%;
+    background: yellowgreen;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+input[type=submit]:hover{
+    background: yellow
+}
+select{
+    padding: 10px;
+    width: 32%;
+    border-radius:5px;
+
+}
+.first { background-color:orange;
+    
+    font-size: 15px;
+    }
+    td 
+    {   
+       font-family: monospace; 
+         padding: 20px;    
+        } 
+       
+   
+        #paires { 
+        background:aquamarine; 
+        margin-left:15%; 
+        margin-top: 2%;
+        border-collapse:collapse;}   
+      #a
+        {color:green;
+        margin-top: 10%;
+        margin-left: 28%;
+        }
+</style>
+
+</head>
+
+
+<body  onload="afficher()">
+    <h3 id="a">Liste Des Utilisateurs Enregistrés</h3>
+
+    <table id="paires" border="1"></table> 
+    <div class="wrap">
+        <form>
+<h2>veuiller saisir les nouvaux cordonnées de l'utilisateur à modifier</h2>
+<input id="n" type="text" name="Nom" placeholder="Nom">
+<p></p>
+<input id="pren" type="text" name="Nom" placeholder="Prenom">
+<p></p>
+<input id="email" type="email" name="email" placeholder="email">
+<p></p>
+<input id="tt" type="password" name="motpasse" placeholder="mot de passe">
+
+
+
+<br>
+<p>Date De Naissance</p>
+<input id="datenais" type="birthdate" name="datenais" placeholder="jj / mm / aa">
+<p></p>
+        <input type="submit" onclick="modifier()" value="Modifier">
+        </form>
+        <script type="text/javascript" src="jvs.js"></script>
+        
+        <script type="text/javascript" src="acceuil_js.js"></script>
+       
+  
+
+
+</body>
+
+</html>

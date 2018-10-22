@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: arial;
+    font-size: 14px;
+}
+
+
+img{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
+
+#container  #sidebar{
+    position: fixed;
+    background: rgb(51, 51, 51);
+    width: 200px;
+    height: 800px;
+}
+
+#container #sidebar #ul #li{
+    list-style-type: none;
+
+}
+
+#container #sidebar ul li a{
+color: #f0f0f0;
+text-decoration: none;
+padding: 10px;
+display: block;
+}
+#container #sidebar ul li a:hover
+{
+background:#000080;
+}
+
+#container #main-content{
+    margin-left: 200px;
+}
+#container #main-content #header{
+    background: #555;
+    color: #f0f0f0;
+    padding: 10px;
+
+}
+h4{
+    color: #f0f0f0;
+    padding: 30px;
+}
